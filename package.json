@@ -5,7 +5,8 @@
   "main": "validate.js",
   "private": true,
   "scripts": {
-    "validate": "node validate.js"
+    "validate": "node validate.js",
+    "test": "npm run validate"
   },
   "repository": {
     "type": "git",

@@ -8,6 +8,7 @@ const ignoreFolders = ['schema', '.git', 'node_modules'];
 fs.readdir(process.env.PWD, (err, files) => {
   if (err) {
     console.log('Could not read directory!');
+    process.exitCode = 1;
     return;
   }
 
@@ -18,6 +19,7 @@ fs.readdir(process.env.PWD, (err, files) => {
       fs.readdir(`${process.env.PWD}/${fileName}`, (err, dirFiles) => {
         if (err) {
           console.log(`Could not read directory: ${fileName}`);
+          process.exitCode = 1;
           return;
         }
 
@@ -27,6 +29,7 @@ fs.readdir(process.env.PWD, (err, files) => {
           fs.readFile(`${process.env.PWD}/${fileName}/${dirFileName}`, (dirErr, content) => {
             if (dirErr) {
               console.log(`Could not read file: ${fileName}/${dirFileName}`);
+              process.exitCode = 1;
               return;
             }
 
@@ -35,10 +38,12 @@ fs.readdir(process.env.PWD, (err, files) => {
                 console.log(`- ${dirFileName} is OK!`);
               } else {
                 console.log(`- ${dirFileName} is NOT OK!\nUnknown Error!`);
+                process.exitCode = 1;
               }
             } catch (error) {
               console.log(`- ${dirFileName} is NOT OK!`);
               console.log(`${error.message}`);
+              process.exitCode = 1;
             }
           });
         });

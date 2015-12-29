@@ -1,0 +1,17 @@
+{
+  "type": "monsters",
+  "version": "v1",
+  "data": {
+    "monsters": [
+      {
+        "id": "skeleton",
+        "name": "Skeleton",
+        "difficulty": 10,
+        "experience": 10,
+        "hitpoints": "2d6",
+        "damage": "1d4",
+        "attacks": ["swipe", "slap", "punch"]
+      }
+    ]
+  }
+}

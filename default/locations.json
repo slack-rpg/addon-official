@@ -1,0 +1,50 @@
+{
+  "type": "locations",
+  "version": "v1",
+  "data": {
+    "names": {
+      "pre": [
+        "",
+        "",
+        "",
+        "",
+        "Abe",
+        "An",
+        "Bob",
+        "Bea",
+        "Boff",
+        "Bunk",
+        "Jer",
+        "Za"
+      ],
+      "name": [
+        "Affer",
+        "Angel",
+        "Ender",
+        "Opper",
+        "Derper"
+      ],
+      "sur": [
+        "",
+        "",
+        "",
+        "",
+        "Ababa",
+        "Etzle",
+        "Uberdan"
+      ]
+    },
+    "descriptions": [
+      "This is quite the {{adj}} town!"
+    ],
+    "adjectives": [
+      "beautiful",
+      "crappy",
+      "weird",
+      "smelly",
+      "no good",
+      "silly",
+      "bee filled"
+    ]
+  }
+}

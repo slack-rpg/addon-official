@@ -1,0 +1,23 @@
+{
+  "name": "slack-rpg-addon-official",
+  "version": "1.0.0",
+  "description": "Official addons",
+  "main": "validate.js",
+  "private": true,
+  "scripts": {
+    "validate": "node validate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shaunburdick/slack-rpg-addon-official.git"
+  },
+  "author": "Shaun Burdick <github@shaunburdick.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaunburdick/slack-rpg-addon-official/issues"
+  },
+  "homepage": "https://github.com/shaunburdick/slack-rpg-addon-official#readme",
+  "dependencies": {
+    "slack-rpg-addon-validator": "^1.0.2"
+  }
+}

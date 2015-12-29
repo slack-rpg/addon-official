@@ -1,0 +1,98 @@
+{
+  "type": "weapons",
+  "version": "v1",
+  "data": {
+    "types": [
+      {
+        "id": "slashing",
+        "phrases": {
+          "attack": ["swipes", "slashes", "cuts", "slices"],
+          "break": ["snaps", "shatters", "breaks"]
+        }
+      },
+      {
+        "id": "stabbing",
+        "phrases": {
+          "attack": ["pokes", "stabs", "cuts", "slices"],
+          "break": ["snaps", "shatters", "breaks"]
+        }
+      },
+      {
+        "id": "bashing",
+        "phrases": {
+          "attack": ["hits", "bashes", "smashes"],
+          "break": ["snaps", "shatters", "breaks"]
+        }
+      },
+      {
+        "id": "ranged",
+        "phrases": {
+          "attack": ["hits", "connects", "drills"],
+          "break": ["snaps", "shatters", "breaks"]
+        }
+      }
+    ],
+    "weapons": [
+      {
+        "id": "rusty-short-sword",
+        "name": "Rusty Short Sword",
+        "type": "default.slashing",
+        "hands": 1,
+        "damage": "1d4",
+        "rarity": 2,
+        "fragility": 8,
+        "wear": 20
+      },
+      {
+        "id": "short-sword",
+        "name": "Short Sword",
+        "type": "default.slashing",
+        "hands": 1,
+        "damage": "1d6",
+        "rarity": 5,
+        "fragility": 1,
+        "wear": 20
+      },
+      {
+        "id": "long-sword",
+        "name": "Long Sword",
+        "type": "default.slashing",
+        "hands": 2,
+        "damage": "1d10",
+        "rarity": 10,
+        "fragility": 1,
+        "wear": 20
+      },
+      {
+        "id": "daggar",
+        "name": "Daggar",
+        "type": "default.stabbing",
+        "hands": 1,
+        "damage": "1d4",
+        "rarity": 5,
+        "fragility": 1,
+        "wear": 20
+      },
+      {
+        "id": "assassin-daggar",
+        "name": "Assassin's Daggar",
+        "type": "default.stabbing",
+        "hands": 1,
+        "damage": "1d10",
+        "rarity": 20,
+        "fragility": 1,
+        "wear": 5
+      },
+      {
+        "id": "club",
+        "name": "Club",
+        "type": "default.bashing",
+        "hands": 1,
+        "damage": "1d6",
+        "rarity": 2,
+        "fragility": 1,
+        "wear": 40
+      }
+    ]
+  }
+}

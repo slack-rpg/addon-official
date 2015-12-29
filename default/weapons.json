@@ -36,7 +36,7 @@
       {
         "id": "rusty-short-sword",
         "name": "Rusty Short Sword",
-        "type": "default.slashing",
+        "type": "slashing",
         "hands": 1,
         "damage": "1d4",
         "rarity": 2,
@@ -46,7 +46,7 @@
       {
         "id": "short-sword",
         "name": "Short Sword",
-        "type": "default.slashing",
+        "type": "slashing",
         "hands": 1,
         "damage": "1d6",
         "rarity": 5,
@@ -56,7 +56,7 @@
       {
         "id": "long-sword",
         "name": "Long Sword",
-        "type": "default.slashing",
+        "type": "slashing",
         "hands": 2,
         "damage": "1d10",
         "rarity": 10,
@@ -66,7 +66,7 @@
       {
         "id": "daggar",
         "name": "Daggar",
-        "type": "default.stabbing",
+        "type": "stabbing",
         "hands": 1,
         "damage": "1d4",
         "rarity": 5,
@@ -76,7 +76,7 @@
       {
         "id": "assassin-daggar",
         "name": "Assassin's Daggar",
-        "type": "default.stabbing",
+        "type": "stabbing",
         "hands": 1,
         "damage": "1d10",
         "rarity": 20,
@@ -86,7 +86,7 @@
       {
         "id": "club",
         "name": "Club",
-        "type": "default.bashing",
+        "type": "bashing",
         "hands": 1,
         "damage": "1d6",
         "rarity": 2,

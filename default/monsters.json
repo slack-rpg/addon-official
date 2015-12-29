@@ -6,11 +6,11 @@
       {
         "id": "skeleton",
         "name": "Skeleton",
-        "difficulty": 10,
+        "difficulty": 1,
         "experience": 10,
         "hitpoints": "2d6",
         "damage": "1d4",
-        "attacks": ["swipe", "slap", "punch"]
+        "attacks": ["swipes", "slaps", "punches"]
       }
     ]
   }

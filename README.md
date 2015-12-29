@@ -1,7 +1,7 @@
 # Slack RPG Official Add-on
 [![Build Status](https://travis-ci.org/slack-rpg/addon-official.svg)](https://travis-ci.org/slack-rpg/addon-official)
 
-Official add-on pack for [Slack RPG](slack-rpg/slack-rpg)
+Official add-on pack for [Slack RPG](https://github.com/slack-rpg/slack-rpg)
 
 Add-on packs are folders containing JSON files with new locations names, monsters, etc. Each folder acts as a namespace, with the name of the user/repo as the top level namespace.
 

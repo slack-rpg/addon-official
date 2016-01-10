@@ -1,0 +1,38 @@
+{
+  "type": "classes",
+  "version": "v1",
+  "data": {
+    "classes": [
+      {
+        "id": "fighter",
+        "name": "Fighter",
+        "description": "They fight. A lot. It's a simple life",
+        "importantStat": "muscle"
+      },
+      {
+        "id": "ranger",
+        "name": "Ranger",
+        "description": "They smell odd but seem to always find me",
+        "importantStat": "speed"
+      },
+      {
+        "id": "rouge",
+        "name": "Rouge",
+        "description": "The sneaky type. Always getting in places they shouldn't. HEY WHERE'S MY WALLET!",
+        "importantStat": "speed"
+      },
+      {
+        "id": "fancy",
+        "name": "Fancy",
+        "description": "Does everything like we do, just fancier.",
+        "importantStat": "charm"
+      },
+      {
+        "id": "philosopher",
+        "name": "Philosopher",
+        "description": "They'll beat you... with words",
+        "importantStat": "smarts"
+      }
+    ]
+  }
+}

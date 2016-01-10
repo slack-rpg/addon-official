@@ -1,0 +1,52 @@
+{
+  "type": "races",
+  "version": "v1",
+  "data": {
+    "races": [
+      {
+        "id": "human",
+        "name": "Human",
+        "description": "The common human. Tolerable alone, devistating in groups.",
+        "statBonuses": {
+          "muscle": 0,
+          "speed": 0,
+          "smarts": 1,
+          "charm": 1
+        }
+      },
+      {
+        "id": "elf",
+        "name": "Elf",
+        "description": "Pointy ears. Hugs trees. You get it.",
+        "statBonuses": {
+          "muscle": 0,
+          "speed": 1,
+          "smarts": 0,
+          "charm": 1
+        }
+      },
+      {
+        "id": "dwarf",
+        "name": "Dwarf",
+        "description": "They are short but they don't have scottish accents!",
+        "statBonuses": {
+          "muscle": 1,
+          "speed": 0,
+          "smarts": 1,
+          "charm": -1
+        }
+      },
+      {
+        "id": "pixie",
+        "name": "Pixie",
+        "description": "Hey! Hey! Look!",
+        "statBonuses": {
+          "muscle": -2,
+          "speed": 2,
+          "smarts": 0,
+          "charm": 0
+        }
+      }
+    ]
+  }
+}

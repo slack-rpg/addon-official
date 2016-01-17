@@ -92,6 +92,36 @@
         "rarity": 2,
         "fragility": 1,
         "wear": 40
+      },
+      {
+        "id": "great-sword",
+        "name": "Great Sword",
+        "type": "slashing",
+        "hands": 2,
+        "damage": "2d10",
+        "rarity": 10,
+        "fragility": 1,
+        "wear": 20
+      },
+      {
+        "id": "nail-board",
+        "name": "Board with a Nail in it",
+        "type": "bashing",
+        "hands": 2,
+        "damage": "1d10",
+        "rarity": 2,
+        "fragility": 1,
+        "wear": 20
+      },
+      {
+        "id": "whifflebat",
+        "name": "Whiffle Bat",
+        "type": "bashing",
+        "hands": 2,
+        "damage": "1d4",
+        "rarity": 1,
+        "fragility": 1,
+        "wear": 20
       }
     ]
   }

@@ -8,9 +8,70 @@
         "name": "Skeleton",
         "difficulty": 1,
         "experience": 10,
+        "hitbonus": 0,
         "hitpoints": "2d6",
         "damage": "1d4",
         "attacks": ["swipes", "slaps", "punches"]
+      },
+      {
+        "id": "gelatinous-cube",
+        "name": "Gelatinous Cube",
+        "difficulty": 1,
+        "experience": 10,
+        "hitbonus": 0,
+        "hitpoints": "2d6",
+        "damage": "1d4",
+        "attacks": ["slimes", "slaps", "absorbs"]
+      },
+      {
+        "id": "kolbold",
+        "name": "Kolbold",
+        "difficulty": 1,
+        "experience": 15,
+        "hitbonus": 0,
+        "hitpoints": "1d6",
+        "damage": "1d4",
+        "attacks": ["swipes", "slaps", "bites"]
+      },
+      {
+        "id": "orphan",
+        "name": "Orphan",
+        "difficulty": 2,
+        "experience": 20,
+        "hitbonus": 1,
+        "hitpoints": "2d10",
+        "damage": "1d6",
+        "attacks": ["swipes", "slaps", "punches","shames"]
+      },
+      {
+        "id": "vagabond",
+        "name": "Vagabond",
+        "difficulty": 2,
+        "experience": 25,
+        "hitbonus": 0,
+        "hitpoints": "2d8",
+        "damage": "1d10",
+        "attacks": ["swipes", "slaps", "punches"]
+      },
+      {
+        "id": "chainsaw-clown",
+        "name": "Chainsaw Weilding Clown",
+        "difficulty": 3,
+        "experience": 50,
+        "hitbonus": 2,
+        "hitpoints": "2d10+4",
+        "damage": "1d6+6",
+        "attacks": ["cuts", "scares", "saws"]
+      },
+      {
+        "id": "murder-hobo",
+        "name": "Murder Hobo",
+        "difficulty": 10,
+        "experience": 10000,
+        "hitbonus": 7,
+        "hitpoints": "8d6+48",
+        "damage": "5d10+22",
+        "attacks": ["strangles", "junks", "infects"]
       }
     ]
   }

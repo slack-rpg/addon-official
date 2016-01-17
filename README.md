@@ -87,6 +87,7 @@ A monster is an NPC that is hostile toward players and will attack them. They us
 - **name**: _string_, A human readable name of the monster.
 - **difficulty**: _integer_, What level the player should be to fight monster. If a monster is a higher level than the player it will get bonuses for damage and attack rate. If a monster is a lower level, it will get penalties for damage and attack rate.
 - **experience**: _integer_, The amount of experience a player gets for killing it
+- **hitbonus**: _integer_, the bonus to hit for the monster. Positive gives greater chance to hit.
 - **hitpoints**: _string_, (dice format) the amount of hit points the monster gets
 - **damage**: _string_, (dice format) the amount of damage its attack does
 - **attacks**: _string[]_, A list of verbs that describe its attack
@@ -123,5 +124,5 @@ Weapons is an array of Weapons.
 - **hands**: _integer_, (1,2) The number of hands needed to wield the weapon
 - **damage**: _string_, (dice format) the amount of damage the weapon does
 - **rarity**: _integer_, How rare the item is, calculate as the ratio of 1:N
-- **fragility**: _integer_,
-- **wear**: _integer_,
+- **fragility**: _integer_, How likely the weapon is to break.
+- **wear**: _integer_, how many uses before it gets a wear point.

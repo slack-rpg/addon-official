@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/shaunburdick/slack-rpg-addon-official#readme",
   "dependencies": {
-    "slack-rpg-addon-validator": "^1.1.0"
+    "slack-rpg-addon-validator": "^1.1.1"
   }
 }
